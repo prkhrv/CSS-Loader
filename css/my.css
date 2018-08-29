@@ -1,0 +1,29 @@
+.animation {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	border: 10px solid #5ABB63;
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+	animation: rotation 2s linear infinte;
+	-webkit-animation: rotation 2s infinite linear;
+	margin-top: 300px;
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
